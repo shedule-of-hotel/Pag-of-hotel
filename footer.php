@@ -3,24 +3,24 @@
 		<div class="container">
          <div class="footer-info-agile">
 				<div class="col-md-2 footer-info-grid links">
-					<h4>Quick links</h4>
+					<h4>Enlaces Rapidos</h4>
 					<ul>
-						       <li><a href="index.php">Home</a></li> 
-								<li><a href="about.php">About</a></li> 
-								<li><a href="codes.php">Services</a></li> 
-								<li><a href="gallery.php">Gallery</a></li> 
-								<li><a href="contact.php">Contact</a></li> 
+						       <li><a href="index.php">Inicio</a></li> 
+								<li><a href="about.php">Sobre Nosotros</a></li> 
+								<li><a href="codes.php">Servicios</a></li> 
+								<li><a href="gallery.php">Galeria</a></li> 
+								<li><a href="contact.php">Contactanos</a></li> 
 					</ul>
 				</div>
 				<div class="col-md-3 footer-info-grid address">
-					<h4>Address</h4>
+					<h4>Direccion</h4>
 					<address>
 						<ul>
-							<li>Mexico United States 3000</li>
-							<li>40019 Honey Street</li>
-							<li>BO,Mexico</li>
-							<li>Telephone : +1 (734) 123-4567</li>
-							<li>Email : <a class="mail" href="mailto:mail@example.com">info(at)example.com</a></li>
+							<li>JR. HUASCAR NRO. 772 URB. CERCADO DE PUCALLPA</li>
+							<li>DETRAS DEL MERCADO NUMERO 1</li>
+							<li>UCAYALI - CORONEL PORTILLO - CALLERIA</li>
+							<li>Telefono : +061 783 634</li>
+							<li>Email : <a class="mail" href="HospedajeAgu@gmail.com">HospedajeAgu@gmail.com</a></li>
 						</ul>
 					</address>
 				</div>
@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-md-4 footer-info-grid">
 				<div class="connect-social">
-					<h4>Connect with us</h4>
+					<h4>Conectate con nosotros</h4>
 					<section class="social">
                         <ul>
 							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -64,11 +64,11 @@
 			</div>
 
 			<div class="connect-agileits newsletter">
-				<h4>Newsletter</h4>
-					<p>Subscribe to our newsletter and we will inform you about newest projects and promotions.
+				<h4>HOJA INFORMATIVA</h4>
+					<p>Suscríbase a nuestro boletín y le informaremos sobre los nuevos proyectos y promociones.
 					</p>
 					<form action="#" method="post" class="newsletter">
-						<input class="email" type="email" placeholder="Your email address..." required="">
+						<input class="email" type="email" placeholder="Escribe tu Correo Electronico..." required="">
 						<input type="submit" class="submit" value="Subscribe">
 					</form>
 			</div>
@@ -77,7 +77,7 @@
 
 		
 			<div class="w3agile_footer_copy">
-				    <p>© 2017 Resort. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				    <p>© 2019 Todos los Derechos Reservados | Design by <a href="http://w3layouts.com/">Plantillas Robadas</a></p>
 			</div>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
