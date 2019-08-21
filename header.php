@@ -68,7 +68,7 @@ switch($nani)
  {
 	 case "/Pag-of-hotel/index.php"://en la pagina Index.php
 	 		?>
-			 	 	<div id="demo-1" data-zs-src='["images/4.jpg", "images/2.jpg", "images/1.jpg","images/3.jpg"]' data-zs-overlay="dots">	 <div class="demo-inner-content"> 
+			 	 	<div id="demo-1" data-zs-src='["images/internet/(4).webp", "images/internet/(5).webp", "images/internet/(12).webp","images/internet/(15).webp"]' data-zs-overlay="dots">	 <div class="demo-inner-content"> 
 			 <?php	 
 	 break;
 

@@ -117,11 +117,7 @@ $paginaActual = $_SERVER['PHP_SELF'];
 
 switch($paginaActual) 
  {
-	 case "/Pag-of-hotel/index.php"://en la pagina Index.php
-	 		?><?php	 
-	 break;
-
-	 case "/Pag-of-hotel/gallery.php"://en la pagina Galeria.php
+	case "/Pag-of-hotel/gallery.php"://en la pagina Galeria.php
 			?>
 <!--/script-->
 <script src="js/lightbox-plus-jquery.min.js"> </script>
@@ -167,7 +163,37 @@ switch($paginaActual)
 	 break;
 
 	 default:
-	 //por defecto
+	 ?>
+			
+	 <script src="js/simplePlayer.js"></script>
+			 <script>
+				 $("document").ready(function() {
+					 $("#video").simplePlayer();
+				 });
+			 </script>
+			 <!-- flexSlider -->
+					 <script defer src="js/jquery.flexslider.js"></script>
+					 <script type="text/javascript">
+					 $(window).load(function(){
+					   $('.flexslider').flexslider({
+						 animation: "slide",
+						 start: function(slider){
+						   $('body').removeClass('loading');
+						 }
+					   });
+					 });
+				   </script>
+ <!--//script for portfolio-->
+				 <!-- Calendar -->
+				 <link rel="stylesheet" href="css/jquery-ui.css" />
+				 <script src="js/jquery-ui.js"></script>
+				   <script>
+						   $(function() {
+							 $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						   });
+				   </script>
+			 <?php
+
  }
  ?>
 

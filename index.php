@@ -11,9 +11,9 @@ require_once("header.php");
 		
 			<!--/banner-info-->
 			   <div class="baner-info">   
-			      <h3>Wel<span>Come </span>To   <span>Luxury </span> Hotel</h3>
-				  <h4>Book Your Dream Resort Destinations</h4>
-				  <p>Enjoy Your Stay In</p>
+			      <h3>H<span>ospedaje </span>   <span>A</span>guaymanto</h3>
+				  <h4>Tu mejor Elección en Pucallpa</h4>
+				  <p>Visitanos</p>
 			   </div>
 			<!--/banner-ingo-->
 			
@@ -25,8 +25,8 @@ require_once("header.php");
  	<div class="special featured">
 		  <div class="container">
 				   <div class="ab-w3l-spa">
-				        <h3 class="tittle">Welcome to Our Resort!</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the printing and typesetting industry
+				        <h3 class="tittle">!Bienvenido al Hospedaje Aguaymanto¡</h3>
+						<p>NO se que pOner
 							</p>
 				   </div>
 				<!-- services -->
@@ -34,37 +34,48 @@ require_once("header.php");
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/5.jpg" alt="service-img">
+											<img src="images/internet/(6).webp" alt="service-img">
 										</div>
-										<h3>Deluxe Room</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>Habitacion Matrimonial</h3>
+										<p>* con Baño.<br/>
+											* con Ventilador.
+										</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/6.jpg" alt="service-img">
+											<img src="images/internet/(2).webp" alt="service-img">
 										</div>
-										<h3>Luxury Room</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>Habitacion Matrimonial</h3>
+										<p>* con Tv 32'.<br/>
+											* con Baño.<br/>
+											* con Ventilador.
+										</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/7.jpg" alt="service-img">
+											<img src="images/internet/(9).webp" alt="service-img">
 										</div>
-										<h3>Swimming Pool</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>Habitacion Doble</h3>
+										<p>* con Tv 32'.<br/>
+											* con Baño.<br/>
+											* con Ventilador.
+										</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/8.jpg" alt="service-img">
+											<img src="images/internet/(14).webp" alt="service-img">
 										</div>
-										<h3>Spa Care</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>Habitacion Triple</h3>
+										<p>* con Tv 49'.<br/>
+											* con Baño.<br/>
+											* con Ventilador.
+										</p>
 									</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -390,7 +401,7 @@ require_once("header.php");
 	</div>
 <!-- testimonials -->
 	<div class="guests-agile">
-			<h3 class="tittle">Our Guests</h3>
+			<h3 class="tittle">Nuestros Visitantes</h3>
 			<div class="w3_agileits_testimonial_grids">
 				<section class="slider">
 					<div class="flexslider">
@@ -398,9 +409,7 @@ require_once("header.php");
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Este es un Comentari Positivo.</p>
 									<img src="images/admin.jpg" alt=" " class="img-responsive" />
 									
 								</div>
@@ -408,9 +417,7 @@ require_once("header.php");
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Este es un Comentari Positivo.</p>
 									<img src="images/admin2.jpg" alt=" " class="img-responsive" />
 									
 								</div>
@@ -418,9 +425,7 @@ require_once("header.php");
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Este es un Comentari Positivo.</p>
 									<img src="images/admin.jpg" alt=" " class="img-responsive" />
 									
 								</div>
