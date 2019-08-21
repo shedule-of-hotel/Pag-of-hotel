@@ -51,57 +51,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"></div>
 			</div>
 		</div>
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<?php
-
-
-
-$nani = $_SERVER['PHP_SELF'];
-print $nani;
-
-
-switch($nani) 
- {
-	 case "/Pag-of-hotel/index.php":
-	 echo " index funciona";
-	 		?>
-			 	 	<div id="demo-1" data-zs-src='["images/4.jpg", "images/2.jpg", "images/1.jpg","images/3.jpg"]' data-zs-overlay="dots">	 <div class="demo-inner-content"> 
-			 <?php	 
-	 break;
-
-	 case "/Pag-of-hotel/gallery.php":
-			?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-	 break;
-
-	 case "/Pag-of-hotel/about.php":
-			?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-	 break;
-
-	 case "/Pag-of-hotel/contact.php":
-			?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-	 break;
-
-	 default:
-	 //por defecto
-			?>
-				<div id="demo-1" class="banner-inner">
-			<?php
- }
- ?>
-
-
-
- 
+  <!--/banner-section-->
+	<div id="demo-1" class="banner-inner">
 		<!--/header-w3l-->
 			   <div class="header-w3-agileits" id="home">
 			     <div class="inner-header-agile">	

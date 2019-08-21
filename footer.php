@@ -104,6 +104,38 @@
 				<script src="js/main.js"></script>
 
 <!--/script-->
+
+
+
+<?php
+
+
+
+$paginaActual = $_SERVER['PHP_SELF'];
+//print $nani;
+
+
+switch($paginaActual) 
+ {
+	 case "/Pag-of-hotel/index.php"://en la pagina Index.php
+	 		?><?php	 
+	 break;
+
+	 case "/Pag-of-hotel/gallery.php"://en la pagina Galeria.php
+			?>
+<!--/script-->
+<script src="js/lightbox-plus-jquery.min.js"> </script>
+<!--/script-->
+			<?php
+	 break;
+
+	 case "/Pag-of-hotel/about.php"://en la pagina ABout.php
+			?><?php
+	 break;
+
+	 case "/Pag-of-hotel/contact.php"://en la pagina Contact.php
+			?>
+			
 	<script src="js/simplePlayer.js"></script>
 			<script>
 				$("document").ready(function() {
@@ -131,6 +163,17 @@
 							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
 						  });
 				  </script>
+			<?php
+	 break;
+
+	 default:
+	 //por defecto
+ }
+ ?>
+
+			<!-- //Calendar -->
+			<!-- //Calendar -->
+			<!-- //Calendar -->
 			<!-- //Calendar -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>

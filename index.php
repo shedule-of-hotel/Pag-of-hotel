@@ -1,6 +1,6 @@
 <?php
 //evalúa y obliga a estar incluido, si lo está, no hace nada
-require_once("headercopy.php");
+require_once("header.php");
 ?>
 
 		<!--//header-w3l-->
