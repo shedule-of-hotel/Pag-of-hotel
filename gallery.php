@@ -13,8 +13,8 @@ require_once("header.php");
 	<div class="w3_breadcrumb">
 	<div class="breadcrumb-inner">	
 			<ul>
-				<li><a href="index.html">Home</a> <i> /</i></li>
-				<li>Gallery</li>
+				<li><a href="index.php">Inicio</a> <i> /</i></li>
+				<li>Galeria</li>
 			</ul>
 		</div>
 	</div>
@@ -23,16 +23,16 @@ require_once("header.php");
 				<div class="w3_content_agilleinfo_inner">
 					<div class="container">
 					      <div class="inner-agile-w3l-part-head">
-					            <h2 class="w3l-inner-h-title">Gallery</h2>
+					            <h2 class="w3l-inner-h-title">Galeria</h2>
 							</div>
 				                <div class="gallery-grids">
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g8.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g8.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(4).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(4).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -41,10 +41,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g2.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(5).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(5).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -53,10 +53,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g7.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(15).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(15).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>		
 								</a>
 							</figure>
@@ -65,10 +65,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g4.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(6).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(12).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -77,10 +77,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g5.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(8).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(8).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -89,10 +89,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g6.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(9).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(9).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>		
 								</a>
 							</figure>
@@ -101,10 +101,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g7.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(13).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(13).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -113,10 +113,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g2.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(12).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(12).webp" alt="" />
 									<figcaption>
-										<p>Resort <span>Booking</span></p>
+										<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>	
 								</a>
 							</figure>
@@ -125,10 +125,10 @@ require_once("header.php");
 					<div class="col-md-4 gallery-grid">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="images/g3.jpg" alt="" />
+								<a class="example-image-link" href="images/internet/(15).webp" data-lightbox="example-set" data-title="Aquí se Pone una Descripción de la imagen">
+									<img src="images/internet/(15).webp" alt="" />
 									<figcaption>
-									<p>Resort <span>Booking</span></p>
+									<p>Hospedaje <span>Aguaymanto</span></p>
 									</figcaption>		
 								</a>
 							</figure>

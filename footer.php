@@ -27,16 +27,16 @@
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f1.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(15).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f2.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(12).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="images/f3.jpg" alt=" " class="img-responsive"></a>
+						<a href="#"><img src="images/internet/(5).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f4.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(17).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

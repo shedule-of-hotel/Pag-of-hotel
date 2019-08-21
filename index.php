@@ -11,7 +11,7 @@ require_once("header.php");
 		
 			<!--/banner-info-->
 			   <div class="baner-info">   
-			      <h3>H<span>ospedaje </span>   <span>A</span>guaymanto</h3>
+			      <h3>Hospedaje    <span>Aguaymanto</span></h3>
 				  <h4>Tu mejor Elección en Pucallpa</h4>
 				  <p>Visitanos</p>
 			   </div>
@@ -36,7 +36,7 @@ require_once("header.php");
 										<div class="w3_agileits_services_grid_1">
 											<img src="images/internet/(6).webp" alt="service-img">
 										</div>
-										<h3>Habitacion Matrimonial</h3>
+										<h3>Habitacion Simple</h3>
 										<p>* con Baño.<br/>
 											* con Ventilador.
 										</p>
@@ -83,7 +83,7 @@ require_once("header.php");
 				<!-- //services -->
 				  
 				           <div class="agileinf-button">    <a class="read" href="single.html">
-											Read More
+											Más Información
 							   </a>
 							   </div>
 
@@ -93,12 +93,12 @@ require_once("header.php");
 	  <!-- welcome -->
 		
 			<div class="spa-agile">
-			<h3 class="tittle fea">Featured  Facilities</h3>
+			<h3 class="tittle fea">INSTALACIONES DESTACADAS</h3>
 				<div class="col-md-3 spa-grid">
 					
 						<i class="fa fa-cutlery" aria-hidden="true"></i>
 					
-						<h4>Restaurant </h4>
+						<h4>Restaurante </h4>
 					
 				</div>
 				<div class="col-md-3 spa-grid">
@@ -106,7 +106,7 @@ require_once("header.php");
 					<i class="fa fa-glass" aria-hidden="true"></i>
 					
 					
-						<h4>Bar</h4>
+						<h4>Bebidas</h4>
 						
 				
 				</div>
@@ -114,7 +114,7 @@ require_once("header.php");
 					
 						<i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
 					
-						<h4>Gym</h4>
+						<h4>Area de Trabajo</h4>
 						
 					
 				</div>
@@ -123,7 +123,7 @@ require_once("header.php");
 					<i class="fa fa-car" aria-hidden="true"></i>
 					
 					
-						<h4>Pick Up</h4>
+						<h4>Estacionamiento</h4>
 						
 				
 				</div>
@@ -133,31 +133,92 @@ require_once("header.php");
 	<!-- //welcome -->
 	</div>
 	<!-- about-bottom -->
-	<div class="about-bottom">
-		<div class="col-md-6 w3l_about_bottom_left">
-				  <div class="video-grid-single-page-agileits">
-														<div data-video="44fbHx7P-t8" id="video"> <img src="images/watch.jpg" alt="" class="img-responsive" /> </div>
-													</div>
+	<!-- about-bottom -->
 
-			<div class="w3l_about_bottom_left_video">
-				<h4>watch our video</h4>
-			</div>
+
+
+
+	<div class="about-bottom">
 		</div>
+
 		<div class="col-md-6 w3l_about_bottom_right one">
-			<h3 class="tittle why">why choose us ?</h3>
-			<p>Lorem Aenean aliquet nec mi et lacinia. Aliquam maximus iaculis mi, sed efficitur orci efficitur nec.</p>
+			<h3 class="tittle why">Libro de Reservacion</h3>
+			<div class="book-form">
+
+				<form action="#" method="post">
+						<div class="col-md-6 form-date-w3-agileits">
+							<label><i class="fa fa-user" aria-hidden="true"></i> NOmbre :</label>
+							<input type="text" name="name" placeholder="Tú nombre" required="">
+						</div>
+						<div class="col-md-6 form-date-w3-agileits second-agile">
+							<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
+							<input type="email" name="email" placeholder="Tú email" required="">
+						</div>
+						<div class="col-md-6 form-date-w3-agileits">
+										<label><i class="fa fa-calendar" aria-hidden="true"></i> Fecha de Llegada :</label>
+										<input  id="datepicker" name="Text" type="text" value="mes/dia/año" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+									
+									</div>
+						<div class="col-md-6 form-time-w3layouts second-agile">
+								<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora :</label>
+								<input type="time">
+						</div>
+						<div class="col-md-6 form-date-w3-agileits">
+									<label><i class="fa fa-calendar" aria-hidden="true"></i> Fecha de salida :</label>
+										<input  id="datepicker1" name="Text" type="text" value="mes/dia/año" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+										
+									</div>
+						<div class="col-md-6 form-time-w3layouts second-agile">
+								<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora :</label>
+								<input type="time">
+						</div>
+						<div class="col-md-6 form-left-agileits-w3layouts bottom-w3ls">
+								<label><i class="fa fa-home" aria-hidden="true"></i> Elige una habitación:</label>
+								<select class="form-control">
+									<option></option>
+									<option>Habitacion Simple</option>
+									<option>Habitacion Matrimonial</option>
+									<option>Habitacion Doble</option>
+									<option>Habitacion Triple</option>
+								</select>
+						</div>
+						<div class="col-md-6 form-left-agileits-w3layouts second-agile">
+								<label><i class="fa fa-users" aria-hidden="true"></i> N° de Personas :</label>
+								<select class="form-control">
+									<option></option>
+									<option>1 Persona</option>
+									<option>2 Persona</option>
+									<option>3 Persona</option>
+									<option>Más</option>
+								</select>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="make wow shake" data-wow-duration="1s" data-wow-delay=".5s">
+							<input type="submit" value="Hacer una reserva">
+						</div>
+				</form>
+			</div>
+
+		</div>
+		
+		<!-- Segundo-bottom -->
+
+		<div class="col-md-6 w3l_about_bottom_right one">
+			<h3 class="tittle why">¿POR QUÉ ELEGIRNOS?</h3>
+			<p>Estas son algunas de las razones por las que te gustaria alojarte con nosotros.</p>
 			<div class="panel-group w3l_panel_group_faq" id="accordion" role="tablist" aria-multiselectable="true">
-			  <div class="panel panel-default">
+			  
+			<div class="panel panel-default">
 				<div class="panel-heading" role="tab" id="headingOne">
 				  <h4 class="panel-title asd">
 					<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Restaurant & Banquets
+					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Restaurante
 					</a>
 				  </h4>
 				</div>
 				<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 				  <div class="panel-body panel_text">
-					Lorem Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia.
+					Contamos con una amplia variedad en el menu, incluyendo comidas y bebidas tipicas de la region.
 				  </div>
 				</div>
 			  </div>
@@ -165,13 +226,13 @@ require_once("header.php");
 				<div class="panel-heading" role="tab" id="headingTwo">
 				  <h4 class="panel-title asd">
 					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Transportation Included
+					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Ubicación
 					</a>
 				  </h4>
 				</div>
 				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 				   <div class="panel-body panel_text">
-					Lorem Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia.
+					Nos encontramos ubicados en el centro de la ciudad de Pucallpa, con facil acceso a cualquier parte de la ciudad.
 				  </div>
 				</div>
 			  </div>
@@ -179,7 +240,21 @@ require_once("header.php");
 				<div class="panel-heading" role="tab" id="headingThree">
 				  <h4 class="panel-title asd">
 					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>The best care for our precious visitors
+					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Mejores Habitaciones
+					</a>
+				  </h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				   <div class="panel-body panel_text">
+					Tenemos las Habitaciones mas limpias y a un precio asequible.
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingThree">
+				  <h4 class="panel-title asd">
+					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>NO se necesita más razones
 					</a>
 				  </h4>
 				</div>
@@ -189,114 +264,31 @@ require_once("header.php");
 				  </div>
 				</div>
 				
-			  </div>
-			  <div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingThree">
-				  <h4 class="panel-title asd">
-					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Pool Deluxe Room
-					</a>
-				  </h4>
-				</div>
-				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-				   <div class="panel-body panel_text">
-					Lorem Amet quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia.
-				  </div>
-				</div>
-				
-			  </div>
 			</div>
 		</div>
-		<div class="clearfix"> </div>
+	</div>	
+
 	</div>
+
+	<div class="clearfix"> </div>
 <!-- //about-bottom -->
-	<!-- about-bottom -->
-	<div class="about-bottom" id="ab">
-	<div class="col-md-6 w3l_about_bottom_right two">
-			<h3 class="tittle why">Book a Reservation</h3>
-			<div class="book-form">
+<!-- //about-bottom -->
+<!-- //about-bottom -->
 
-			   <form action="#" method="post">
-					<div class="col-md-6 form-date-w3-agileits">
-						<label><i class="fa fa-user" aria-hidden="true"></i> Name :</label>
-						<input type="text" name="name" placeholder="Your name" required="">
-					</div>
-					<div class="col-md-6 form-date-w3-agileits second-agile">
-						<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
-						<input type="email" name="email" placeholder="Your email" required="">
-					</div>
-					 <div class="col-md-6 form-date-w3-agileits">
-									<label><i class="fa fa-calendar" aria-hidden="true"></i> Arrival Date :</label>
-									<input  id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
-								
-								</div>
-					<div class="col-md-6 form-time-w3layouts second-agile">
-							<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time :</label>
-							<input type="time">
-					</div>
-					<div class="col-md-6 form-date-w3-agileits">
-						        <label><i class="fa fa-calendar" aria-hidden="true"></i> Departure Date :</label>
-									<input  id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
-									
-								</div>
-					<div class="col-md-6 form-time-w3layouts second-agile">
-							<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time :</label>
-							<input type="time">
-					</div>
-					<div class="col-md-6 form-left-agileits-w3layouts bottom-w3ls">
-							<label><i class="fa fa-home" aria-hidden="true"></i> Choose a Room :</label>
-							<select class="form-control">
-								<option></option>
-								<option>Standard Double Room</option>
-								<option>Standard Family Room</option>
-								<option>Garden Family Room</option>
-								<option>Deluxe Double Room</option>
-								<option>Executive Junior Suite</option>
-								<option>Maisonette</option>
-							</select>
-					</div>
-					<div class="col-md-6 form-left-agileits-w3layouts second-agile">
-							<label><i class="fa fa-users" aria-hidden="true"></i> No.of People :</label>
-							<select class="form-control">
-								<option></option>
-								<option>1 Person</option>
-								<option>2 People</option>
-								<option>3 People</option>
-								<option>4 People</option>
-								<option>5 People</option>
-								<option>More</option>
-							</select>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="make wow shake" data-wow-duration="1s" data-wow-delay=".5s">
-						  <input type="submit" value="Make a Reservation">
-					</div>
-			</form>
-								</div>
 
-		</div>
-		<div class="col-md-6 w3l_about_bottom_left">
-			
-<img src="images/33.jpg" alt="" class="img-responsive" />
-			<div class="w3l_about_bottom_left_video book-text">
-				<h4>BooK Now</h4>
-			</div>
-		</div>
-		
-		<div class="clearfix"> </div>
-	</div>
-<!-- //about -->
+
+
 	<!-- /plans -->
       <div class="plans-section">
 				 <div class="container">
-				 <h3 class="w3l-inner-h-title">Rates and Booking</h3>
+				 <h3 class="w3l-inner-h-title">TARIFAS Y RESERVAS</h3>
 						<div class="priceing-table-main">
 				 <div class="col-md-3 price-grid">
 					<div class="price-block agile">
 						<div class="price-gd-top pric-clr1">
-							<h4>SINGLE ROOM</h4>
-							<h3><span>$</span>79</h3>
-							<h5>1 Night</h5>
+							<h4>Habitacion Simple</h4>
+							<h3><span>S/.</span>35</h3>
+							<h5>1 Noche</h5>
 						</div>
 						<div class="price-gd-bottom">
 							   <div class="price-list">
@@ -312,7 +304,7 @@ require_once("header.php");
 									 <h6 class="bed"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
 							<div class="price-selet pric-sclr1">		    			   
-<a href="#ab" class="scroll" >Book Now</a>
+<a href="#ab" class="scroll" >Reservar ahora</a>
 							</div>
 						</div>
 					</div>
@@ -320,9 +312,9 @@ require_once("header.php");
 				<div class="col-md-3 price-grid ">
 					<div class="price-block agile">
 						<div class="price-gd-top pric-clr2">
-							<h4>THE COTTAGE</h4>
-							<h3><span>$</span>119</h3>
-							<h5>1 Night</h5>
+						<h4>Habitacion Matrimonial</h4>
+						<h3><span>S/.</span>45</h3>
+						<h5>1 Noche</h5>
 						</div>
 						<div class="price-gd-bottom">
 							<div class="price-list">
@@ -339,7 +331,7 @@ require_once("header.php");
 								
 							</div>
 							<div class="price-selet pric-sclr2">
-								<a href="#ab" class="scroll" >Book Now</a>
+								<a href="#ab" class="scroll" >Reservar ahora</a>
 
 							</div>
 						</div>
@@ -348,9 +340,9 @@ require_once("header.php");
 				<div class="col-md-3 price-grid lost">
 					<div class="price-block agile">
 						<div class="price-gd-top pric-clr3">
-							<h4>GUEST HOUSE</h4>
-							<h3><span>$</span>159</h3>
-							<h5>1 Night</h5>
+							<h4>Habitacion Doble</h4>
+							<h3><span>S/.</span>55</h3>
+							<h5>1 Noche</h5>
 						</div>
 						<div class="price-gd-bottom">
 							<div class="price-list">
@@ -365,7 +357,7 @@ require_once("header.php");
 								<h6 class="bed three"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
 							<div class="price-selet pric-sclr3">
-								<a href="#ab" class="scroll" >Book Now</a>
+								<a href="#ab" class="scroll" >Reservar ahora</a>
 							</div>
 						</div>
 					</div>
@@ -373,9 +365,9 @@ require_once("header.php");
 				<div class="col-md-3 price-grid wthree lost">
 					<div class="price-block agile">
 						<div class="price-gd-top pric-clr4">
-							<h4>THE SEA VILLA</h4>
-							<h3><span>$</span> 199</h3>
-							<h5>1 Night</h5>
+							<h4>Habitacion Triple</h4>
+							<h3><span>S/.</span>70</h3>
+							<h5>1 Noche</h5>
 						</div>
 						<div class="price-gd-bottom">
 							<div class="price-list">
@@ -390,7 +382,7 @@ require_once("header.php");
 								<h6 class="bed four"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
 							<div class="price-selet pric-sclr4">
-								<a href="#ab" class="scroll" >Book Now</a>
+								<a href="#ab" class="scroll" >Reservar ahora</a>
 							</div>
 						</div>
 					</div>
