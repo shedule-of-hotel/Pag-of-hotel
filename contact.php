@@ -50,6 +50,22 @@ require_once("header.php");
 							</div>
 				  </div>
 			<!--//content-inner-section-->
+<?php
+    ini_set( 'display_errors', 1 );//para mostra errores
+    error_reporting( E_ALL );//para mostra errores
+    $from = "test@hostinger-tutorials.com";//el correo del cual se envia
+    $to = "WolfwoodStryfe@gmail.com";//el destinatario
+    $subject = "este es el subject";
+    $message = "Este es el mensaje o el cuerpo del mensaje";
+    $headers = "esta cosa se llam headers:" . $from;
+	mail($to,$subject,$message,$headers);
+    echo "El mensaje de correo electrónico fue enviado";
+?>
+			<!--//content-inner-section-->
+			<!--//content-inner-section-->
+			<!--//content-inner-section-->
+			<!--//content-inner-section-->
+			<!--//content-inner-section-->
 			<div class="w3l_contact-bottom">
 		<div class="container">
 			
