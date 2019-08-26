@@ -1,5 +1,5 @@
 				<!-- services -->
-							<div class="w3_agileits_services_grids">
+                <div class="w3_agileits_services_grids">
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">

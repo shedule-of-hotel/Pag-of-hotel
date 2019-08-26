@@ -26,7 +26,7 @@ require_once("header.php");
 		  <div class="container">
 				   <div class="ab-w3l-spa">
 				        <h3 class="tittle">!Bienvenido al Hospedaje Aguaymanto¡</h3>
-						<p>NO se que pOner
+						<p>Las Habitacion con las que Contamos:
 							</p>
 				   </div>
 				<!-- services -->
@@ -37,8 +37,8 @@ include_once 'habitaciones.php';
 
 				<!-- //services -->
 				  
-				           <div class="agileinf-button">    <a class="read" href="single.html">
-											Más Información
+				           <div class="agileinf-button">    <a class="read" href="contact.php">
+											Envianos un Mensaje
 							   </a>
 							   </div>
 
@@ -203,45 +203,7 @@ include_once 'habitaciones.php';
 	  <?php
       include_once 'planes.php';
       ?>
-<!-- testimonials -->
-	<div class="guests-agile">
-			<h3 class="tittle">Nuestros Visitantes</h3>
-			<div class="w3_agileits_testimonial_grids">
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Este es un Comentari Positivo.</p>
-									<img src="images/admin.jpg" alt=" " class="img-responsive" />
-									
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Este es un Comentari Positivo.</p>
-									<img src="images/admin2.jpg" alt=" " class="img-responsive" />
-									
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-								<i class="fa fa-quote-right" aria-hidden="true"></i>
-									<p>Este es un Comentari Positivo.</p>
-									<img src="images/admin.jpg" alt=" " class="img-responsive" />
-									
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				
-				<!-- //flexSlider -->
-			</div>
-	</div>
-<!-- //testimonials -->
+
 
 
 <?php

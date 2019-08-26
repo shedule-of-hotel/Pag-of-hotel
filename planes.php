@@ -51,7 +51,6 @@
 							</div>
 							<div class="price-selet pric-sclr2">
 								<a href="#ab" class="scroll" >Reservar ahora</a>
-
 							</div>
 						</div>
 					</div>
