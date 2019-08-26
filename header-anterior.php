@@ -11,6 +11,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resort Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -49,55 +51,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="clearfix"></div>
 			</div>
 		</div>
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<!--/banner-section-->
-<?php
-
-
-
-$nani = $_SERVER['PHP_SELF'];
-print $nani;
-
-
-switch ($nani) {
-     case "/Pag-of-hotel/index.php"://en la pagina Index.php
-            ?>
-			 	 	<div id="demo-1" data-zs-src='["images/internet/(4).webp", "images/internet/(5).webp", "images/internet/(12).webp","images/internet/(15).webp"]' data-zs-overlay="dots">	 <div class="demo-inner-content"> 
-			 <?php
-     break;
-
-     case "/Pag-of-hotel/gallery.php"://en la pagina Galeria.php
-            ?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-     break;
-
-     case "/Pag-of-hotel/about.php"://en la pagina ABout.php
-            ?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-     break;
-
-     case "/Pag-of-hotel/contact.php"://en la pagina Contact.php
-            ?>
-			<div id="demo-1" class="banner-inner">
-			<?php
-     break;
-
-     default:
-     //por defecto
-            ?>
-				<div id="demo-1" class="banner-inner">
-			<?php
- }
- ?>
-
-
-
- 
+  <!--/banner-section-->
+	<div id="demo-1" class="banner-inner">
 		<!--/header-w3l-->
 			   <div class="header-w3-agileits" id="home">
 			     <div class="inner-header-agile">	

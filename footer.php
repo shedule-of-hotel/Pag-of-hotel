@@ -27,16 +27,16 @@
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f1.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(15).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f2.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(12).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="images/f3.jpg" alt=" " class="img-responsive"></a>
+						<a href="#"><img src="images/internet/(5).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f4.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="images/internet/(17).webp" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -104,6 +104,34 @@
 				<script src="js/main.js"></script>
 
 <!--/script-->
+
+
+
+<?php
+
+
+
+$paginaActual = $_SERVER['PHP_SELF'];
+//print $nani;
+
+
+switch($paginaActual) 
+ {
+	case "/Pag-of-hotel/gallery.php"://en la pagina Galeria.php
+			?>
+<!--/script-->
+<script src="js/lightbox-plus-jquery.min.js"> </script>
+<!--/script-->
+			<?php
+	 break;
+
+	 case "/Pag-of-hotel/about.php"://en la pagina ABout.php
+			?><?php
+	 break;
+
+	 case "/Pag-of-hotel/contact.php"://en la pagina Contact.php
+			?>
+			
 	<script src="js/simplePlayer.js"></script>
 			<script>
 				$("document").ready(function() {
@@ -131,6 +159,47 @@
 							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
 						  });
 				  </script>
+			<?php
+	 break;
+
+	 default:
+	 ?>
+			
+	 <script src="js/simplePlayer.js"></script>
+			 <script>
+				 $("document").ready(function() {
+					 $("#video").simplePlayer();
+				 });
+			 </script>
+			 <!-- flexSlider -->
+					 <script defer src="js/jquery.flexslider.js"></script>
+					 <script type="text/javascript">
+					 $(window).load(function(){
+					   $('.flexslider').flexslider({
+						 animation: "slide",
+						 start: function(slider){
+						   $('body').removeClass('loading');
+						 }
+					   });
+					 });
+				   </script>
+ <!--//script for portfolio-->
+				 <!-- Calendar -->
+				 <link rel="stylesheet" href="css/jquery-ui.css" />
+				 <script src="js/jquery-ui.js"></script>
+				   <script>
+						   $(function() {
+							 $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						   });
+				   </script>
+			 <?php
+
+ }
+ ?>
+
+			<!-- //Calendar -->
+			<!-- //Calendar -->
+			<!-- //Calendar -->
 			<!-- //Calendar -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
