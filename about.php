@@ -13,8 +13,8 @@ require_once("header.php");
     <div class="w3_breadcrumb">
         <div class="breadcrumb-inner">
             <ul>
-                <li><a href="index.html">Home</a> <i> /</i></li>
-                <li>About</li>
+                <li><a href="index.html">Inicio</a> <i> /</i></li>
+                <li>Nosotros</li>
             </ul>
         </div>
     </div>
@@ -23,58 +23,22 @@ require_once("header.php");
     <div class="w3_content_agilleinfo_inner">
         <div class="container">
             <div class="inner-agile-w3l-part-head">
-                <h2 class="w3l-inner-h-title">About</h2>
+                <h2 class="w3l-inner-h-title">Nosotros</h2>
             </div>
             <div class="ab-w3l-spa">
-                <img src="images/ab.jpg" alt="" class="img-responsive" />
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem
-                    Ipsum is simply dummy text of the printing and typesetting industry
+                <img src="images/internet/fond.jpeg" alt="" class="img-responsive" />
+                <h3>Visión</h3>
+                <p>Representar la hospitalidad, preservando y promoviendo nuestros valores culturales, sociales y ambientales, creando experiencias únicas con un servicio de calidad basado en el respeto, que motiven a nuestros huéspedes a ser su mejor opción.
                 </p>
             </div>
             <!-- services -->
-            <div class="w3_agileits_services_grids">
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="images/5.jpg" alt="service-img">
-                        </div>
-                        <h3>Deluxe Room</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="images/6.jpg" alt="service-img">
-                        </div>
-                        <h3>Luxury Room</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="images/7.jpg" alt="service-img">
-                        </div>
-                        <h3>Swimming Pool</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-                    <div class="w3_agileits_services_grid_agile">
-                        <div class="w3_agileits_services_grid_1">
-                            <img src="images/8.jpg" alt="service-img">
-                        </div>
-                        <h3>Spa Care</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
+<?php
+include_once 'habitaciones.php';
+?>
             <!-- //services -->
 
-            <div class="agileinf-button"> <a class="read" href="single.html">
-					Read More
+            <div class="agileinf-button"> <a class="read" href="contact.php">
+					Envianos un mensaje
 				</a>
             </div>
 
@@ -82,55 +46,20 @@ require_once("header.php");
 
         <div class="featured-facility">
             <!-- welcome -->
-
-            <div class="spa-agile">
-                <h3 class="tittle fea">Featured Services</h3>
-                <div class="col-md-3 spa-grid">
-
-                    <i class="fa fa-cutlery" aria-hidden="true"></i>
-
-                    <h4>Restaurant </h4>
-
-                </div>
-                <div class="col-md-3 spa-grid">
-
-                    <i class="fa fa-glass" aria-hidden="true"></i>
-
-
-                    <h4>Bar</h4>
-
-
-                </div>
-                <div class="col-md-3 spa-grid lost">
-
-                    <i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
-
-                    <h4>Gym</h4>
-
-
-                </div>
-                <div class="col-md-3 spa-grid lost">
-
-                    <i class="fa fa-car" aria-hidden="true"></i>
-
-
-                    <h4>Pick Up</h4>
-
-
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-
+<?php
+            include_once 'welcome.php';
+?>
+            
             <!-- //welcome -->
         </div>
     </div>
     <div class="team-section">
         <div class="container">
-            <h3 class="tittle">Our Team</h3>
+            <h3 class="tittle">Nuestro Equipo</h3>
             <div class="team-row">
                 <div class="col-md-3 team-grids">
                     <div class="team-img">
-                        <img class="img-responsive" src="images/t1.jpg" alt="">
+                        <img class="img-responsive" src="images/internet/sept.jpeg" alt="">
                         <div class="captn">
                             <ul class="top-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -142,13 +71,13 @@ require_once("header.php");
                         </div>
                     </div>
                     <div class="team-agile">
-                        <h4>Sophia</h4>
+                        <h4>Administradora</h4>
 
                     </div>
                 </div>
                 <div class="col-md-3 team-grids">
                     <div class="team-img">
-                        <img class="img-responsive" src="images/t2.jpg" alt="">
+                        <img class="img-responsive" src="images/internet/sept.jpeg" alt="">
                         <div class="captn">
                             <ul class="top-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -160,13 +89,13 @@ require_once("header.php");
                         </div>
                     </div>
                     <div class="team-agile">
-                        <h4>Michael</h4>
+                        <h4>Recepcionista</h4>
 
                     </div>
                 </div>
                 <div class="col-md-3 team-grids">
                     <div class="team-img">
-                        <img class="img-responsive" src="images/t3.jpg" alt="">
+                        <img class="img-responsive" src="images/internet/sept.jpeg" alt="">
                         <div class="captn">
                             <ul class="top-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -178,13 +107,13 @@ require_once("header.php");
                         </div>
                     </div>
                     <div class="team-agile">
-                        <h4>Jessica</h4>
+                        <h4>Contadora</h4>
 
                     </div>
                 </div>
                 <div class="col-md-3 team-grids">
                     <div class="team-img">
-                        <img class="img-responsive" src="images/t4.jpg" alt="">
+                        <img class="img-responsive" src="images/internet/sept.jpeg" alt="">
                         <div class="captn">
                             <ul class="top-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -196,7 +125,7 @@ require_once("header.php");
                         </div>
                     </div>
                     <div class="team-agile">
-                        <h4>Edwards</h4>
+                        <h4>Conserge</h4>
 
                     </div>
                 </div>
@@ -205,118 +134,9 @@ require_once("header.php");
         </div>
     </div>
     <!-- /plans -->
-    <div class="plans-section">
-        <div class="container">
-            <h3 class="w3l-inner-h-title">Rates and Booking</h3>
-            <div class="priceing-table-main">
-                <div class="col-md-3 price-grid">
-                    <div class="price-block agile">
-                        <div class="price-gd-top pric-clr1">
-                            <h4>SINGLE ROOM</h4>
-                            <h3><span>$</span>79</h3>
-                            <h5>1 Night</h5>
-                        </div>
-                        <div class="price-gd-bottom">
-                            <div class="price-list">
-
-                                <ul>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-
-                                </ul>
-                                <h6 class="bed"><i class="fa fa-bed" aria-hidden="true"></i></h6>
-                            </div>
-                            <div class="price-selet pric-sclr1">
-                                <a href="#" data-toggle="modal" data-target="#myModal1">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 price-grid ">
-                    <div class="price-block agile">
-                        <div class="price-gd-top pric-clr2">
-                            <h4>THE COTTAGE</h4>
-                            <h3><span>$</span>119</h3>
-                            <h5>1 Night</h5>
-                        </div>
-                        <div class="price-gd-bottom">
-                            <div class="price-list">
-
-                                <ul>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-
-                                </ul>
-                                <h6 class="bed two"><i class="fa fa-bed" aria-hidden="true"></i></h6>
-
-                            </div>
-                            <div class="price-selet pric-sclr2">
-                                <a href="#" data-toggle="modal" data-target="#myModal1">Book Now</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 price-grid lost">
-                    <div class="price-block agile">
-                        <div class="price-gd-top pric-clr3">
-                            <h4>GUEST HOUSE</h4>
-                            <h3><span>$</span>159</h3>
-                            <h5>1 Night</h5>
-                        </div>
-                        <div class="price-gd-bottom">
-                            <div class="price-list">
-                                <ul>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-
-                                </ul>
-                                <h6 class="bed three"><i class="fa fa-bed" aria-hidden="true"></i></h6>
-                            </div>
-                            <div class="price-selet pric-sclr3">
-                                <a href="#" data-toggle="modal" data-target="#myModal1">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 price-grid wthree lost">
-                    <div class="price-block agile">
-                        <div class="price-gd-top pric-clr4">
-                            <h4>THE SEA VILLA</h4>
-                            <h3><span>$</span> 199</h3>
-                            <h5>1 Night</h5>
-                        </div>
-                        <div class="price-gd-bottom">
-                            <div class="price-list">
-                                <ul>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                    <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-
-                                </ul>
-                                <h6 class="bed four"><i class="fa fa-bed" aria-hidden="true"></i></h6>
-                            </div>
-                            <div class="price-selet pric-sclr4">
-                                <a href="#" data-toggle="modal" data-target="#myModal1">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
+    <?php
+      include_once 'planes.php';
+      ?>
     <!-- Modal1 -->
     <div class="modal fade" id="myModal1" role="dialog">
         <div class="modal-dialog">
