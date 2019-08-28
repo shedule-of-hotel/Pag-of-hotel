@@ -45,13 +45,10 @@
 					<h4>Conectate con nosotros</h4>
 					<section class="social">
 						<ul>
-							<li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
-
-
-							<li><a class="icon pin" href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a class="icon db" href="#"><i class="fa fa-dribbble"></i></a></li>
-							<li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="icon fb" href="https://www.facebook.com/aguaymantohoteles/"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="icon tw" href="https://api.whatsapp.com/send?phone=51981747795&text=Hola%2c%20mas%20infortmación%20por%20este%20numero&source=&data="><i class="fa fa-whatsapp"></i></a></li>
+							<li><a class="icon pin" href="https://www.instagram.com/explore/locations/508834956316046/hospedaje-aguaymanto/?hl=es-la"><i class="fa fa-instagram"></i></a></li>
+							<li><a class="icon gp" href="mailto:aguaymantohoteles@gmail.com"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
 					</section>
 
