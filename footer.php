@@ -106,7 +106,7 @@ $paginaActual = $_SERVER['PHP_SELF'];
 
 
 switch ($paginaActual) {
-	case "/gallery.php": //en la pagina Galeria.php
+	case "/Pag-of-hotel/gallery.php": //en la pagina Galeria.php
 		?>
 <!--/script-->
 <script src="js/lightbox-plus-jquery.min.js"> </script>
@@ -114,11 +114,11 @@ switch ($paginaActual) {
 <?php
 	break;
 
-case "/about.php": //en la pagina ABout.php
+case "/Pag-of-hotel/about.php": //en la pagina ABout.php
 	?><?php
 			break;
 
-		case "/contact.php": //en la pagina Contact.php
+		case "/Pag-of-hotel/contact.php": //en la pagina Contact.php
 			?>
 
 <script src="js/simplePlayer.js"></script>
