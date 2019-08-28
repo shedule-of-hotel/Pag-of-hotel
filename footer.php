@@ -62,22 +62,12 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
-
-		<div class="connect-agileits newsletter">
-			<h4>HOJA INFORMATIVA</h4>
-			<p>Suscríbase a nuestro boletín y le informaremos sobre los nuevos proyectos y promociones.
-			</p>
-			<form action="#" method="post" class="newsletter">
-				<input class="email" type="email" placeholder="Escribe tu Correo Electronico..." required="">
-				<input type="submit" class="submit" value="Subscribe">
-			</form>
-		</div>
 	</div>
 </div>
 
 
 <div class="w3agile_footer_copy">
-	<p>© 2019 Todos los Derechos Reservados | Design by <a href="http://w3layouts.com/">Plantillas Robadas XD</a></p>
+	<p>© 2019</p>
 </div>
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>

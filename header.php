@@ -40,15 +40,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-srip-agileinfo">
 			<div class="w3ls-social-icons text-left">
 				<a class="facebook" href="https://www.facebook.com/aguaymantohoteles/"><i class="fa fa-facebook"></i></a>
-				<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-				<a class="pinterest" href="#"><i class="fa fa-instagram"></i></a>
-				<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+				<a class="twitter" href="https://api.whatsapp.com/send?phone=51981747795&text=Hola%2c%20mas%20infortmación%20por%20este%20numero&source=&data="><i class=" fa fa-whatsapp"></i></a>
+				<a class="pinterest" href="https://www.instagram.com/explore/locations/508834956316046/hospedaje-aguaymanto/?hl=es-la"><i class="fa fa-instagram"></i></a>
 
 			</div>
 			<div class="agileits-contact-info text-right">
 				<ul>
 					<li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +061 783 634</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="HospedajeAgu@gmail.com">HospedajeAgu@gmail.com</a></li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:aguaymantohoteles@gmail.com">Aguaymantohoteles@gmail.com</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -68,26 +67,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 	switch ($nani) {
-		case "/index.php": //en la pagina Index.php
+		case "/Pag-of-hotel/index.php": //en la pagina Index.php
 			?>
 	<div id="demo-1" data-zs-src='["images/internet/(4).webp", "images/internet/(5).webp", "images/internet/(12).webp","images/internet/(15).webp"]' data-zs-overlay="dots">
 		<div class="demo-inner-content">
 			<?php
 				break;
 
-			case "/gallery.php": //en la pagina Galeria.php
+			case "/Pag-of-hotel/gallery.php": //en la pagina Galeria.php
 				?>
 			<div id="demo-1" class="banner-inner">
 				<?php
 					break;
 
-				case "/about.php": //en la pagina ABout.php
+				case "/Pag-of-hotel/about.php": //en la pagina ABout.php
 					?>
 				<div id="demo-1" class="banner-inner">
 					<?php
 						break;
 
-					case "/contact.php": //en la pagina Contact.php
+					case "/Pag-of-hotel/contact.php": //en la pagina Contact.php
 						?>
 					<div id="demo-1" class="banner-inner">
 						<?php
@@ -115,11 +114,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
 											</button>
-											<h1><a href="index.php"><span>A</span>guaymanto <p class="s-log">Hotel</p></a>
-
-											</h1>
-										</div>
-										<!-- navbar-header -->
+											<h1><a href="index.php"><img src="images/Aguay.png"> </h1>
+										</div> <!-- navbar-header -->
 										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 											<ul class="nav navbar-nav">

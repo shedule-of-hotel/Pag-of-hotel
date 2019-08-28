@@ -221,18 +221,18 @@ ul.nav.navbar-nav.navbar-right {
     font-weight: 400;
     text-transform: uppercase;
    letter-spacing: 2px;
-	color:#fff;
+	color:#FF2720;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #fe423f;
+    color: #2baf2b;
 	background:none!important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-       color: #ff401b;
+       color: #fff;
     background:#2baf2b!important;
 }
 .navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-      color: #ff401b;
+      color: #fff;
      background:none!important;
 }
 .navbar-right {
@@ -2364,7 +2364,7 @@ h3.tittle, h2.w3l-inner-h-title, h3.w3l-inner-h-title {
 /*-- //single --*/
 .w3agile_footer_copy {
     text-align: center;
-    background: #00acee;
+    background: #6F6C7C;
     padding: 1em 0;
 }
 .w3agile_footer_copy p {
